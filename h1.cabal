@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 183af2a9a35be0e7cdfabb376429b0b9d59934561f42a308190226684e0efcef
+-- hash: e3aa676fd41e467350533c833a8a8b0703c335ad39c134529e22ddf27528cec4
 
 name:           h1
-version:        0.1.0.0
+version:        0.1.0.1
 description:    Please see the README on GitHub at <https://github.com/githubuser/h1#readme>
 homepage:       https://github.com/githubuser/h1#readme
 bug-reports:    https://github.com/githubuser/h1/issues
@@ -44,7 +44,7 @@ executable h1-exe
       Paths_h1
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -O3
   build-depends:
       aeson
     , base >=4.7 && <5

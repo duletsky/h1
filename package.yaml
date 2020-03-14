@@ -1,5 +1,5 @@
 name:                h1
-version:             0.1.0.0
+version:             0.1.0.1
 github:              "githubuser/h1"
 license:             BSD3
 author:              "Oleg Duletsky"
@@ -35,6 +35,7 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -O3
     dependencies:
     - h1
 

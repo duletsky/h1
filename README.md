@@ -43,3 +43,5 @@ Benchmarking 127.0.0.1 (be patient)
 apr_socket_recv: Operation timed out (60)
 Total of 6229 requests completed
 ```
+Описание оч похожих симптомов - https://stackoverflow.com/questions/6623391/how-to-gain-control-of-a-5gb-heap-in-haskell
+Подвисание на некоторых запросах
