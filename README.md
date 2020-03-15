@@ -45,3 +45,7 @@ Total of 6229 requests completed
 ```
 Описание оч похожих симптомов - https://stackoverflow.com/questions/6623391/how-to-gain-control-of-a-5gb-heap-in-haskell
 Подвисание на некоторых запросах
+
+## docker-compose  
+
+https://gist.github.com/tfausak/cdcc2e33c9c418278262650eb96b7b05
